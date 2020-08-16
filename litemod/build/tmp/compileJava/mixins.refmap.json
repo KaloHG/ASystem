@@ -1,0 +1,40 @@
+{
+  "mappings": {
+    "gjum/minecraft/civ/synapse/mixin/MixinNetHandlerPlayClient": {
+      "handleChat": "Lbrz;a(Lin;)V"
+    },
+    "gjum/minecraft/civ/synapse/mixin/MixinEntityPlayer": {
+      "getDisplayName": "Laed;i_()Lhh;",
+      "getTeam": "Laed;aY()Lbhm;"
+    },
+    "gjum/minecraft/civ/synapse/mixin/MixinGuiPlayerTabOverlay": {
+      "getPlayerName": "Lbjq;a(Lbsc;)Ljava/lang/String;"
+    }
+  },
+  "data": {
+    "notch": {
+      "gjum/minecraft/civ/synapse/mixin/MixinNetHandlerPlayClient": {
+        "handleChat": "Lbrz;a(Lin;)V"
+      },
+      "gjum/minecraft/civ/synapse/mixin/MixinEntityPlayer": {
+        "getDisplayName": "Laed;i_()Lhh;",
+        "getTeam": "Laed;aY()Lbhm;"
+      },
+      "gjum/minecraft/civ/synapse/mixin/MixinGuiPlayerTabOverlay": {
+        "getPlayerName": "Lbjq;a(Lbsc;)Ljava/lang/String;"
+      }
+    },
+    "searge": {
+      "gjum/minecraft/civ/synapse/mixin/MixinNetHandlerPlayClient": {
+        "handleChat": "Lnet/minecraft/client/network/NetHandlerPlayClient;func_147251_a(Lnet/minecraft/network/play/server/SPacketChat;)V"
+      },
+      "gjum/minecraft/civ/synapse/mixin/MixinEntityPlayer": {
+        "getDisplayName": "Lnet/minecraft/entity/player/EntityPlayer;func_145748_c_()Lnet/minecraft/util/text/ITextComponent;",
+        "getTeam": "Lnet/minecraft/entity/player/EntityPlayer;func_96124_cp()Lnet/minecraft/scoreboard/Team;"
+      },
+      "gjum/minecraft/civ/synapse/mixin/MixinGuiPlayerTabOverlay": {
+        "getPlayerName": "Lnet/minecraft/client/gui/GuiPlayerTabOverlay;func_175243_a(Lnet/minecraft/client/network/NetworkPlayerInfo;)Ljava/lang/String;"
+      }
+    }
+  }
+}
